@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgb(32, 32, 32);
+}

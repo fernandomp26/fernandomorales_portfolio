@@ -1,0 +1,116 @@
+.habilities-container {
+    padding: 80px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilities-container h1.title{
+    color: #00ff85;
+    text-decoration: 3px overline #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    min-width: 100%;
+}
+
+.cards-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 70%;
+    place-items: center;
+    padding: 20px 0;
+}
+
+.cards-content .card {
+    width: 390px;
+    height: 230px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgb(22, 22, 22);
+    transition: 0.5s ease;
+    text-align: center;
+}
+
+/*estilos para mobile*/
+.card-changed {
+    background-color: #00ff85;
+}
+
+.cards-content .card .icon {
+    font-size: 70px;
+}
+
+.cards-content .card h1 {
+    color: #fff;
+}
+
+.cards-content .card span {
+    color: black;
+    font-size: 18px;
+}
+
+.cards-content .card h1, span {
+    display: none;
+    transition: opacity 1s ease;
+}
+
+.cards-content .card:hover {
+    background-color: #00ff85;
+    h1, span {
+        display: block;
+    }
+    .icon {
+        display: none;
+    }
+}
+
+.cards-content .react-card, .css-card .icon {
+    color: rgb(0, 187, 255);
+}
+
+.cards-content .html-card .icon {
+    color: orange;
+}
+
+.cards-content .js-card .icon {
+    color: rgb(242, 255, 0);
+}
+
+.cards-content .py-card, .java-card .icon {
+    color: #fff;
+}
+
+.cards-content .excel-card .icon {
+    color: green;
+}
+
+.cards-content .pp-card .icon {
+    color: rgb(157, 0, 0);
+}
+
+.cards-content .word-card .icon {
+    color: blue;
+}
+
+.cards-content .en-card h2.icon, .cards-content .es-card h2.icon {
+    font-size: 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+    .habilities-container h1.title {
+        margin-bottom: 10%;
+    }
+}

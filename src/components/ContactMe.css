@@ -1,0 +1,54 @@
+.contactme-container {
+    min-width: 100%;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactme-container h1.title {
+    color: #00ff85;
+    text-decoration: 3px overline #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.contactme-content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactme-content p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contactme-content p b {
+    color: #00ff85;
+    font-size: 20px;
+}
+
+.contactme-content h3 {
+    color: #00ff85;
+    text-align: center;
+    text-decoration: underline #fff;
+    font-size: 50px;
+}
+
+.contactme-content .happy-face-icon {
+    font-size: 50px;
+    color: #fff;
+}
+
+.contactme-container .footer {
+    margin-top: 7%;
+    padding: 5px 5px;
+    color: rgb(180, 180, 180);
+}
