@@ -13,7 +13,7 @@ export default function Projects({registerRef}) {
 
     const awProject = {
         name: "Apple Watch",
-        description: "This project was developed using HTML, CSS, and a tool that makes it fully interactive: JavaScript. After delving a bit into the basics of JavaScript, I decided to replicate Apple's page about their Apple Watches because, after visiting this website, I saw that it made changes when interacting with buttons or photos, and I ended up being enchanted by so much interactivity. Using the magic of JS, I made the application completely interactive, allowing the user to change the watch's color, size, and visually preview the page adapting to their request.",
+        description: "This project was developed using HTML, CSS, and a tool that makes it fully interactive: JavaScript. After delving a bit into the basics of this tool, I decided to replicate Apple's page about their Apple Watches because, after visiting this website, I saw that it made changes when interacting with buttons or photos, and I ended up being enchanted by so much interactivity. Using the magic of JS, I made the application completely interactive, allowing the user to change the watch's color, size, and visually preview the page adapting to their request.",
         img: aw
     }
 
@@ -25,13 +25,13 @@ export default function Projects({registerRef}) {
 
     const pyProject = {
         name: "Election Simulator",
-        description: "A project developed in Python simulating an election for president, governor, and mayor of a city. After previously registering some candidates, the user had a series of interactions, such as: voting for candidates for all positions by providing their CPF (Brazilian taxpayer ID) first and then informing the candidate's number they want to vote for (they could also vote blank or null), could check the vote counting, etc. This project was also developed as a semester project for my college.",
+        description: "A project developed in Python simulating an election for president, governor, and mayor of a city. After previously registering some candidates, the user had a series of interactions, such as: voting for candidates for all positions by providing their CPF (Individual registration) first and then informing the candidate's number they want to vote for (they could also vote blank or null), could check the vote counting, etc. This project was also developed as a semester project for my college.",
         img: py
     }
 
     const rProject = {
         name: "MackInfo",
-        description: "A project developed in a group using the ReactJs framework, also as a semester project for college. It consists of a " + "guide " +  "for the new students at the college who would be studying something related to technology, where we included various information about the field and information technology courses at Mackenzie, some professors, social media of athletic groups, courses, etc.",
+        description: "A project developed in a group using the ReactJs framework, also as a semester project for college. It consists in a guide for the new students at the college who would be studying something related to technology, where we included some information about the field and information technology courses at Mackenzie, some professors, social media of athletic groups, courses, etc.",
         img: react
     }
 

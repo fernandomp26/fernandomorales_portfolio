@@ -16,11 +16,11 @@ export default function About({registerRef}) {
             </div>
             <div className="texts">
                <h2>Graduation</h2>
-               <p>I am currently in my graduate degree in <b>Information Systems</b> at <b>Mackenzie Presbyterian University</b>.<br></br><br></br> Start: <b>January 2023</b><br></br>End: <b>December 2026</b>.</p>
+               <p>I'm currently taking my degree in <b>Information Systems</b> at <b>Mackenzie Presbyterian University</b>.<br></br><br></br> Start: <b>January 2023</b><br></br>End: <b>December 2026</b>.</p>
             </div>
            <div className="texts">
            <h2>Learning</h2>
-               <p>Currently, I am focused on learning more about <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>ReactJS</b>, <b>NextJS</b> and other things about web development. I've had some experience with <b>Python</b> and <b>Java</b>, and I am considering taking some courses on the side to learn more about programming.</p>
+               <p>Currently, I am focused on learning more about <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>ReactJS</b>, <b>NextJS</b> and other things about web development. I've had some experience with <b>Python</b> and <b>Java</b>, and I'm planning on do some extracurricular courses to learn more about programming.</p>
            </div>
          </div>
       </div>
