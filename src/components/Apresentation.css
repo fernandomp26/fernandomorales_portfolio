@@ -96,14 +96,15 @@ h1.hello {
 
 @media screen and (max-width: 1040px) {
    .main {
+      min-width: 100%;
       margin: 5% 0;
       display: flex;
       align-items: center;
       height: 869px;
    }
 
-   .main-text h1.name, h1 span {
-      font-size: 90px;
+   .main-text {
+      width: 90%;
    }
 
    .image img {
