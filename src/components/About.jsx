@@ -16,7 +16,7 @@ export default function About({registerRef}) {
             </div>
             <div className="texts">
                <h2>Graduation</h2>
-               <p>I'm currently taking my degree in <b>Information Systems</b> at <b>Mackenzie Presbyterian University</b>.<br></br><br></br> Start: <b>January 2023</b><br></br>End: <b>December 2026</b>.</p>
+               <p>I'm currently taking my degree of <b>Information Systems</b> at <b>Mackenzie Presbyterian University</b>.<br></br><br></br> Start: <b>January 2023</b><br></br>End: <b>December 2026</b>.</p>
             </div>
            <div className="texts">
            <h2>Learning</h2>

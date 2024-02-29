@@ -1,54 +1,54 @@
 /*estilo padrão para todos os componentes que tenham algum conteudo*/
 .about-container {
-    padding: 80px 0;
- }
- 
- .about{
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 40px;
-    padding: 0 100px;
-    padding-bottom: 50px;
- }
- 
- /*estilo padrão para todos os componentes que tenham algum conteudo*/
- .about-container h1.title {
-    color: #00ff85;
-    text-decoration: 3px overline #fff;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
- }
- 
- .texts h2 {
-    color: #ffffff;
-    font-size: 50px;
-    text-decoration: inherit;
-    text-decoration: underline #00ff85;
- }
- 
- .texts p {
-    color: #cecece;
-    width: 60%;
-    text-align: justify;
-    font-size: 18px;
- }
- 
- .texts {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
- }
- 
- @media screen and (max-width: 1400px) {
-    .about-container h1.title {
-       margin-bottom: 10%;
-    }
- 
-    .about-container .about p {
-       width: 100%;
-    }
- }
+   padding: 80px 0;
+}
+
+.about {
+   width: 100%;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   gap: 40px;
+   padding: 0 100px;
+   padding-bottom: 50px;
+}
+
+/*estilo padrão para todos os componentes que tenham algum conteudo*/
+.about-container h1.title {
+   color: #00ff85;
+   text-decoration: 3px overline #fff;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 5%;
+   margin-bottom: 3%;
+}
+
+.texts h2 {
+   color: #ffffff;
+   font-size: 50px;
+   text-decoration: inherit;
+   text-decoration: underline #00ff85;
+}
+
+.texts p {
+   color: #cecece;
+   width: 60%;
+   text-align: justify;
+   font-size: 18px;
+}
+
+.texts {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+   .about-container h1.title {
+      margin-bottom: 10%;
+   }
+
+   .about-container .about p {
+      width: 100%;
+   }
+}

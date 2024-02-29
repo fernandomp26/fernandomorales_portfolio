@@ -1,80 +1,4 @@
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: fixed;
-    width: 100%;
-    padding: 30px 60px;
-    background: linear-gradient(rgb(21, 21, 21), rgba(24, 24, 24, 0.59), transparent);
- }
- 
- header span{
-    color: #00ff85;
- }
- 
- header .nav{
-    display: flex;
-    align-items: center;
-    gap: 10%;
- }
- 
- header a.button-menu {
-    display: none;
- }
- 
- header a, .nav a{
-    text-decoration: none;
-    color: #fff;
-    transition: 0.2s;
-    font-size: 1.10rem;
-    font-weight: 500;
-    white-space: nowrap;
-    border-radius: 20px;
-    padding: 0;
- }
- 
- header a:hover, .nav a:hover{
-    color: #00ff85;
-    transition: all 0.3s;
-    cursor: pointer;
- }
- 
- header a:focus, .nav a:focus{
-    color: #00ff85;
-    transition: all 0.2s;
- }
- 
- @media screen and (max-width: 1040px) {
-    header {
-       display: flex;
-       align-items: center;
-       justify-content: space-around;
-    }
- 
-    header .nav {
-       position: absolute;
-       flex-direction: column;
-       top: 0;
-       background: linear-gradient(black, rgb(28, 28, 28), transparent);
-       min-height: 250px;
-       width: 350px;
-       margin-top: -100%;
-       left: 0;
-       border-radius: 10px;
-       padding: 10px;
-       gap: 20px;
-       animation-duration: 0.7s;
-    }
- 
-    header a.button-menu {
-       display: flex;
-       font-size: 50px;
-    }
- 
-    header img {
-       width: 50px;
-    }
- }header{
+header {
    display: flex;
    align-items: center;
    justify-content: space-evenly;
@@ -84,11 +8,11 @@ header{
    background: linear-gradient(rgb(21, 21, 21), rgba(24, 24, 24, 0.59), transparent);
 }
 
-header span{
+header span {
    color: #00ff85;
 }
 
-header .nav{
+header .nav {
    display: flex;
    align-items: center;
    gap: 10%;
@@ -98,7 +22,8 @@ header a.button-menu {
    display: none;
 }
 
-header a, .nav a{
+header a,
+.nav a {
    text-decoration: none;
    color: #fff;
    transition: 0.2s;
@@ -109,13 +34,90 @@ header a, .nav a{
    padding: 0;
 }
 
-header a:hover, .nav a:hover{
+header a:hover,
+.nav a:hover {
    color: #00ff85;
    transition: all 0.3s;
    cursor: pointer;
 }
 
-header a:focus, .nav a:focus{
+@media screen and (max-width: 1040px) {
+   header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+   }
+
+   header .nav {
+      position: absolute;
+      flex-direction: column;
+      top: 0;
+      background: linear-gradient(black, rgb(28, 28, 28), transparent);
+      min-height: 250px;
+      width: 350px;
+      margin-top: -100%;
+      left: 0;
+      border-radius: 10px;
+      padding: 10px;
+      gap: 20px;
+      animation-duration: 0.7s;
+   }
+
+   header a.button-menu {
+      display: flex;
+      font-size: 50px;
+   }
+
+   header img {
+      width: 50px;
+   }
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   position: fixed;
+   width: 100%;
+   padding: 30px 60px;
+   background: linear-gradient(rgb(21, 21, 21), rgba(24, 24, 24, 0.59), transparent);
+}
+
+header span {
+   color: #00ff85;
+}
+
+header .nav {
+   display: flex;
+   align-items: center;
+   gap: 10%;
+}
+
+header a.button-menu {
+   display: none;
+}
+
+header a,
+.nav a {
+   text-decoration: none;
+   color: #fff;
+   transition: 0.2s;
+   font-size: 1.10rem;
+   font-weight: 500;
+   white-space: nowrap;
+   border-radius: 20px;
+   padding: 0;
+}
+
+header a:hover,
+.nav a:hover {
+   color: #00ff85;
+   transition: all 0.3s;
+   cursor: pointer;
+}
+
+header a:focus,
+.nav a:focus {
    color: #00ff85;
    transition: all 0.2s;
 }
