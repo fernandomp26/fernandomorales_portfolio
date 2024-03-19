@@ -18,7 +18,7 @@ export default function ContactMe({registerRef}) {
                 <BiSolidHappyBeaming className='happy-face-icon'/>
             </div>
             <div className="footer">
-                <p>@Copyright 2024 - Developed by Fernando Morales Peres</p>
+                <p>©️Copyright 2024 - Developed by Fernando Morales Peres</p>
             </div>
         </div>
     )
