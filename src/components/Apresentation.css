@@ -121,7 +121,7 @@ h1.hello {
       width: 100%;
    }
 
-   .main-text h1.name, h1 strong {
+   .main-text h1 strong {
       font-size: 90px;
    }
 }
