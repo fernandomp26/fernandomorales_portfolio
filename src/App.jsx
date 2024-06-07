@@ -1,12 +1,12 @@
 import './App.css'
-import Header from './components/Header'
-import Apresentation from './components/Apresentation'
-import About from './components/About'
-import Habilities from './components/Habilities'
-import Projects from './components/Projects'
-import ContactMe from './components/ContactMe'
+import Header from './components/header/Header'
+import Apresentation from './components/apresentation/Apresentation'
+import About from './components/about/About'
+import Habilities from './components/habilities/Habilities'
+import Projects from './components/projects/Projects'
+import ContactMe from './components/contactme/ContactMe'
 import { useState } from 'react'
-import { IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io"
 
 export default function App() {
 

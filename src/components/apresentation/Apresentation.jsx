@@ -1,5 +1,5 @@
 import './Apresentation.css'
-import photo from './imgs/img-profile-dois.jpg'
+import photo from '../imgs/img-profile-dois.jpg'
 import { FaInstagram, FaGithub, FaWhatsapp } from 'react-icons/fa'
 
 export default function Apresentation() {

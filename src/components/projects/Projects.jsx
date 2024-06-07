@@ -1,12 +1,12 @@
 import './Projects.css'
-import aw from './imgs/projects-imgs/aw.jpg'
-import jav from './imgs/projects-imgs/jav.png'
-import py from './imgs/projects-imgs/py.png'
-import react from './imgs/projects-imgs/react.png'
-import ProjectsBody from './ProjectsBody';
+import aw from '../imgs/projects-imgs/aw.jpg'
+import jav from '../imgs/projects-imgs/jav.png'
+import py from '../imgs/projects-imgs/py.png'
+import react from '../imgs/projects-imgs/react.png'
+import ProjectsBody from './ProjectsBody'
 import { useRef } from 'react'
 
-export default function Projects({registerRef}) {
+export default function Projects({ registerRef }) {
 
     const projectsRef = useRef(null);
     registerRef('projects', projectsRef);
@@ -35,23 +35,30 @@ export default function Projects({registerRef}) {
         img: react
     }
 
+    const springProject = {
+        name: "RestFul API with Spring Boot",
+        description: "A fullstack Restful API project where it is possible to perform CRUD (create, read, update, delete) operations on Teams, Cars, Computers, and Cities (the themes were chosen randomly). All the information created, read, updated, and deleted is stored in a PostgreSQL database. For the Back-end development, Spring Boot (a Java framework) was used, and for the Front-end, I used NextJs as the framework, Tailwind CSS for general styling, NextJS libraries, and Shadcn, an amazing external library of ready-made components!",
+        img: react
+    }
+
     const projectsList = [
         awProject,
         jProject,
         pyProject,
-        rProject
+        rProject,
+        springProject
     ]
 
     return (
         <div className="projects-container" ref={projectsRef}>
             <h1 className='title'>Projects</h1>
             <div className="projects-content">
-                {projectsList.map(item => 
-                    <ProjectsBody 
+                {projectsList.map(item =>
+                    <ProjectsBody
                         name={item.name}
                         description={item.description}
                         img={item.img}
-                    />    
+                    />
                 )}
             </div>
         </div>
