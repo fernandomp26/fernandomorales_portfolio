@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Header.css';
-import logo from './imgs/logo.png';
+import logo from '../imgs/logo.png';
 import { IoMenu, IoClose } from "react-icons/io5";
 
 export default function Header({ scrollToRef }) {
