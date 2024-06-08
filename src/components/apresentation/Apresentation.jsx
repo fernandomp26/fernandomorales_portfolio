@@ -1,6 +1,6 @@
 import './Apresentation.css'
 import photo from '../imgs/img-profile-dois.jpg'
-import { FaInstagram, FaGithub, FaWhatsapp } from 'react-icons/fa'
+import { FaInstagram, FaGithub, FaWhatsapp, FaLinkedin } from 'react-icons/fa'
 
 export default function Apresentation() {
 
@@ -23,6 +23,9 @@ export default function Apresentation() {
                   </a>
                   <a href="https://www.instagram.com/pepiinhoo_" target='_blank'>
                      <FaInstagram />
+                  </a>
+                  <a href="https://www.linkedin.com/in/fernando-morales-peres-894421271/" target='_blank'>
+                     <FaLinkedin />
                   </a>
                </div>
             </div>
