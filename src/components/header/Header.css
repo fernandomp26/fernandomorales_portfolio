@@ -6,6 +6,7 @@ header {
    width: 100%;
    padding: 30px 60px;
    background: linear-gradient(rgb(21, 21, 21), rgba(24, 24, 24, 0.59), transparent);
+   z-index: 999;
 }
 
 header span {
