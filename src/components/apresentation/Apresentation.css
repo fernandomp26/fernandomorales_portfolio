@@ -7,6 +7,7 @@
    justify-content: space-between;
    margin: 17% 0;
    padding: 0 20px;
+   overflow-x: hidden;
 }
 
 .main-text {
@@ -16,6 +17,8 @@
    width: 50%;
    justify-content: center;
    align-items: flex-start;
+   transform: translateX(100vw); /* Começa fora da tela (à direita) */
+   animation: slideIn 1s ease-out forwards;
 }
 
 h1.hello {
@@ -57,6 +60,8 @@ h1.hello {
    display: flex;
    align-items: center;
    justify-content: center;
+   opacity: 0; /* Começa transparente */
+   animation: fadeIn 1s ease-in forwards; /* Animação de 2 segundos */
 }
 
 .main .image img {
@@ -67,6 +72,24 @@ h1.hello {
 .social-media a {
    cursor: pointer;
    color: #fefefe;
+}
+
+@keyframes fadeIn {
+   0% {
+       opacity: 0;
+   }
+   100% {
+       opacity: 1;
+   }
+}
+
+@keyframes slideIn {
+   0% {
+       transform: translateX(100%);
+   }
+   100% {
+       transform: translateX(0);
+   }
 }
 
 @media screen and (max-width: 1496px) {

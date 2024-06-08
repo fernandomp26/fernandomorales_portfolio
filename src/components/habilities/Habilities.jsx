@@ -1,6 +1,7 @@
 import { useRef, useState } from "react"
 import './Habilities.css'
 import { FaReact, FaHtml5, FaCss3, FaPython, FaJava, FaFileExcel, FaFilePowerpoint, FaFileWord } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 
 export default function Habilities({registerRef}) {
@@ -30,6 +31,7 @@ export default function Habilities({registerRef}) {
     return (
         <div className="habilities-container" ref={habRef}>
             <h1 className='title'>Habilities</h1>
+            <p className="description">Hover/click the cards.</p>
             <div className="cards-content">
                 <div className="card html-card">
                     <FaHtml5 className="icon"/>
@@ -47,13 +49,17 @@ export default function Habilities({registerRef}) {
                     <FaReact className="icon"/>
                     <h1 className="card-h1">ReactJS<br></br><span className="card-h1">Basic</span></h1>
                 </div>
-                <div className="card py-card">
-                    <FaPython className="icon"/>
-                    <h1 className="card-h1">Python<br></br><span className="card-h1">Basic(already programed)</span></h1>
-                </div>
                 <div className="card java-card">
                     <FaJava className="icon"/>
                     <h1 className="card-h1">Java<br></br><span className="card-h1">Basic</span></h1>
+                </div>
+                <div className="card spring-card">
+                    <SiSpringboot className="icon"/>
+                    <h1 className="card-h1">Spring Boot<br></br><span className="card-h1">Basic</span></h1>
+                </div>
+                <div className="card py-card">
+                    <FaPython className="icon"/>
+                    <h1 className="card-h1">Python<br></br><span className="card-h1">Basic(already programed)</span></h1>
                 </div>
                 <div className="card excel-card">
                     <FaFileExcel className="icon"/>

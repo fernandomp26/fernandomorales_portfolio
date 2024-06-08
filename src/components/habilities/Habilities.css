@@ -17,6 +17,10 @@
     min-width: 100%;
 }
 
+.habilities-container p.description {
+    color: #fff;
+}
+
 .cards-content {
     display: flex;
     align-items: center;
@@ -90,6 +94,10 @@
 
 .cards-content .py-card, .java-card .icon {
     color: #fff;
+}
+
+.cards-content .spring-card .icon {
+    color: rgb(62, 207, 0);
 }
 
 .cards-content .excel-card .icon {

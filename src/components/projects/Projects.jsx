@@ -3,6 +3,7 @@ import aw from '../imgs/projects-imgs/aw.jpg'
 import jav from '../imgs/projects-imgs/jav.png'
 import py from '../imgs/projects-imgs/py.png'
 import react from '../imgs/projects-imgs/react.png'
+import next from '../imgs/projects-imgs/next.png'
 import ProjectsBody from './ProjectsBody'
 import { useRef } from 'react'
 
@@ -38,7 +39,7 @@ export default function Projects({ registerRef }) {
     const springProject = {
         name: "RestFul API with Spring Boot",
         description: "A fullstack Restful API project where it is possible to perform CRUD (create, read, update, delete) operations on Teams, Cars, Computers, and Cities (the themes were chosen randomly). All the information created, read, updated, and deleted is stored in a PostgreSQL database. For the Back-end development, Spring Boot (a Java framework) was used, and for the Front-end, I used NextJs as the framework, Tailwind CSS for general styling, NextJS libraries, and Shadcn, an amazing external library of ready-made components!",
-        img: react
+        img: next
     }
 
     const projectsList = [
