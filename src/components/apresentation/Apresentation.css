@@ -29,6 +29,7 @@ h1.hello {
    color: #00ff85;
    font-size: 120px;
    font-weight: 700;
+   font-family: 'JetBrains Mono', sans-serif;
 }
 
 .main-text h1.name {
