@@ -9,6 +9,17 @@ header {
    z-index: 999;
 }
 
+header p.icon {
+   font-size: 50px;
+   color: #fff;
+   transition: all 0.3s;
+   cursor: pointer;
+}
+
+header p.icon:hover {
+   color: #00ff85;
+}
+
 header span {
    color: #00ff85;
 }

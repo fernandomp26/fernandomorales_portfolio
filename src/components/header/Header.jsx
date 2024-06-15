@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './Header.css';
-import logo from '../imgs/logo.png';
 import { IoMenu, IoClose } from "react-icons/io5";
 
 export default function Header({ scrollToRef }) {
@@ -23,7 +22,7 @@ export default function Header({ scrollToRef }) {
             <a className='button-menu' onClick={openMenu}>
                <IoMenu />
             </a>
-            <img src={logo} width={60}/>
+            <p className='icon'></p>
             <div className="nav" id='nav'>
                <a className='button-menu' onClick={openMenu}>
                   <IoClose />
