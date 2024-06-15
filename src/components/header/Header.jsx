@@ -22,7 +22,7 @@ export default function Header({ scrollToRef }) {
             <a className='button-menu' onClick={openMenu}>
                <IoMenu />
             </a>
-            <p className='icon'></p>
+            <p className='icon'>FM</p>
             <div className="nav" id='nav'>
                <a className='button-menu' onClick={openMenu}>
                   <IoClose />
